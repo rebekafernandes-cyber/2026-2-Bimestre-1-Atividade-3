@@ -1,4 +1,4 @@
-# Relatório sobre implementação de comunicação entre tarefas em FIXME
+# Relatório sobre implementação de comunicação entre tarefas em RUST
 
 ## Introdução
 
@@ -14,13 +14,15 @@ O grupo de trabalho foi formado por Julia Rafaelly Siqueira de Lima, Lidia Rebek
 
 
 > qual o objetivo de comunicação entre tarefas?
+
 O objetivo da comunicação entre tarefas é permitir que diferentes partes de um programa troquem informações e trabalhem de forma coordenada. Isso é importante principalmente em sistemas que utilizam várias threads ou processos, pois essas tarefas precisam compartilhar dados, enviar mensagens ou avisar quando determinada atividade foi concluída.
 
-FIXME
 > explicar porque usar docker nesse trabalho.
+
 O Docker foi utilizado para criar um ambiente padronizado para executar os programas. Dessa forma, o código pode ser executado sem depender tanto das configurações específicas do computador.
 
 Neste trabalho, o Docker foi configurado com um ambiente contendo as ferramentas necessárias para compilar e executar os programas. O projeto utiliza um arquivo Dockerfile para definir a imagem e as dependências utilizadas. Assim, todos os testes podem ser realizados dentro de um ambiente controlado.
+
 > qual a configuração do docker
 
 
